@@ -1,0 +1,198 @@
+/*sTYLES FOR THE PHOTOGRAPHY TEMPLATE ONE LANDING PAGE*/
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar {
+  background: #081320;
+  padding: 25px 150px;
+}
+
+.nav-link {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.active {
+  color: #FEDA6A;
+}
+
+.fa {
+  color: #4F5F76;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.jumbotron {
+  background-image: url("../images/Rectangle 30.png");
+  height: 700px;
+}
+
+.jumbotron h3 {
+  color: #FEDA6A;
+}
+
+.new {
+  border-top: 2px solid #4F5F76;
+  width: 530px;
+}
+
+.head {
+  border-top: 2px solid #091F36;
+  width: 530px;
+  margin-top: 95px;
+}
+
+.serve {
+  border: 2px solid #091F36;
+  border-radius: 5px;
+}
+
+.service-width {
+  width: 820px !important;
+}
+
+.plan {
+  border: 3px solid #091F36;
+  background: #FEDA6A;
+  color: #081320;
+  width: 194px;
+  border-radius: 5px;
+  padding: 7px 10px;
+  line-height: 80%;
+  font-size: 24px;
+}
+
+.left {
+  position: relative;
+  left: -70px;
+  bottom: -20px;
+}
+
+.right {
+  position: relative;
+  right: -680px;
+  bottom: -20px;
+}
+
+#pic2 {
+  margin-left: 145px;
+}
+
+#pic3 {
+  margin-left: 430px;
+  margin-top: -145px;
+}
+
+#pic4 {
+  margin-left: 99px;
+  margin-top: -325px;
+}
+
+#pic5 {
+  margin-left: 750px;
+  margin-top: -510px;
+}
+
+#pic6 {
+  margin-left: 430px;
+  margin-top: -350px;
+}
+  
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+.reviews-item {
+  border-bottom: 2px solid #081320;
+}
+
+.reviews-item-name {
+  background: #081320;
+  color: #fff;
+  width: 250px;
+  float: right;
+  text-align: center;
+}
+
+.review {
+  font-size: 25px;
+  color: #081320;
+  text-align: center;
+  width: 400px; 
+}
+
+.story {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  background: #0F2862;
+  color: #FEDA6A;
+  width: 194px;
+  padding: 7px 10px;
+  line-height: 80%;
+  font-size: 24px;
+  position: relative;
+  top: -160px;
+  left: 25px;
+}
+
+.content {
+  background: #081320;
+  height: 500px;
+  width: 460px;
+  padding: 20px;
+}
+
+.text {
+  color: #fff;
+  margin-top: 25px;
+  text-align: center;
+}
+
+/*PAGE FOOTER STYLES*/
+footer {
+  background: #091F36;
+  padding: 40px 90px;
+
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #4F5F76;
+  background: #091F36;
+  color: #4F5F76;
+  width: 300px;
+}
+
+.btn {
+  border: none; 
+  border: 2px solid #4F5F76;
+  color: #4F5F76;
+  background: #091F36;
+  border-radius: 100px;
+  padding: 10px 50px;
+
+}
+
+footer p {
+  color: #fff;
+}
+.reach {
+  color: #FEDA6A;
+}
