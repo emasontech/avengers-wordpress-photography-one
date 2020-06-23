@@ -1,0 +1,159 @@
+:root {
+    --primary-color: #0F2862;
+    --dark-primary-color: rgba(9, 31, 54, 0.99);
+
+    --secondary-color: #feda6a;
+    --grey-blue: #4f5f76;
+    --color-white: #FCFCFC;;
+}
+html {
+    scrollbar-color: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.small-device {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    /* utility classes */
+    .big-text {
+        font-size: 24px;
+    }
+    .text-local-primary {
+        color: var(--dark-primary-color);
+    }
+    /* Hero section */
+    header {
+        text-align: center;
+        background: url('../images/bg-header-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--secondary-color);
+    }
+    /* Navbar styling */
+    .navbar {
+        background-color: var(--dark-primary-color) ;
+    }
+    .navbar-brand {
+        color: var(--color-white) !important;
+        font-weight: 600;
+    }
+    .nav-link {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 2;
+        color: var(--color-white) !important;
+
+    }
+    .icon {
+        margin-top: 30vh;
+        border-top: 2px solid var(--color-white);
+        padding-top: 1rem;
+        display: flex;
+        align-items: flex-end;
+    }
+    .fa-icon {
+        font-size: 2em;
+        color: var(--grey-blue);
+    }
+
+    /* The heading of the header section */
+    .heading {
+        border-bottom: 3px solid var(--grey-blue);
+        margin: 0 auto;
+        color: var(--color-white);
+        margin-top: 20%;
+    }
+    
+    .wedo {
+        padding-bottom: 15%;
+        padding-top: 5%;
+    }
+    .wedo .item {
+        display: block;
+        border-width: 0 0 7px 15px;
+        border-color: #feda6a;
+        padding-top: .75rem;
+        border-style: solid;
+        margin-bottom: 1.5rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .showcase_heading {
+        color: var(--primary-color);
+        border-bottom: 3px solid var(--secondary-color);
+        padding: 2rem 0 .5rem;
+        font-size: 16px;
+    }
+    .para-1, .showcase_heading {
+        font-weight: 600;
+        padding-left: 5%;
+    }
+
+    .btn-square {
+        background-color: var(--primary-color);
+        border-radius: 0 !important;
+        border: none !important;
+        color: var(--color-white);
+    }
+
+    .image_showcase {
+        background-color: var(--dark-primary-color);
+        padding: 5px;
+        color: var(--color-white);
+        box-sizing: border-box;
+    }
+
+    [role="button" ]:hover {
+        color: rgb(255, 212, 212);
+    }
+
+    .image_showcase img {
+        height: 306px;
+    }
+    .yellow-bg {
+        width: 93px;
+        height: 151px;
+        background: #FEDA6A;
+        opacity: 0.5;
+    }
+    .reviewer {
+        background-color: var(--dark-primary-color);
+        color: var(--color-white);
+        padding: .2rem 2rem;
+        margin-top: 1rem;
+        
+    }
+    /* FEATURED STORIES SECTION */
+    .story-card{
+        background-color: var(--primary-color);
+        color: var(--color-white);
+    }
+    .img-thumbnail {
+        border-radius: 0;
+        border: 0;
+        padding: 0;
+    }
+    .small-device {
+        display: none;
+    }
+    
+}
+
+
+
+@media (max-width: 400px) {
+  .feature-desktop, .review-desktop {
+      display: none;
+  }
+  .small-device {
+      display: block;
+  }
+}

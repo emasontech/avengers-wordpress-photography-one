@@ -1,0 +1,323 @@
+/*sTYLES FOR THE PHOTOGRAPHY TEMPLATE ONE LANDING PAGE*/
+
+
+@import 'main.css' screen and (max-width: 700px);
+:root {
+  --primary-color: #0F2862;
+  --dark-primary-color: rgba(9, 31, 54, 1);
+
+  --secondary-color: #feda6a;
+  --grey-blue: #4f5f76;
+  --color-white: #FCFCFC;;
+}
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.small-device {
+  display: none;
+}
+
+.navbar {
+  background:   var(--dark-primary-color);
+  padding: 25px 150px;
+}
+
+.nav-link {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.active {
+  color: #FEDA6A;
+}
+
+.fa {
+  color: #4F5F76;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.jumbotron {
+  background-image: url("../images/Rectangle 30.png");
+  height: 700px;
+}
+
+.jumbotron h3 {
+  color: #FEDA6A;
+}
+
+.new {
+  border-top: 2px solid #4F5F76;
+  width: 100%;
+}
+
+.head {
+  border-top: 2px solid #091F36;
+  width: 530px;
+}
+
+.serve {
+  border: 2px groove #091F36;
+  border-radius: 5px;
+  color: #091F36;
+  
+}
+/* The mobile version of shots section */
+.shots_mobile, .mobile {
+  display: none;
+}
+
+.service-width {
+  width: 820px !important;
+}
+
+.plan {
+  border: 3px solid #091F36;
+  background: #FEDA6A;
+  color: #081320;
+  width: 194px;
+  border-radius: 5px;
+  padding: 7px 10px;
+  line-height: 80%;
+  font-size: 24px;
+}
+
+.left {
+  position: relative;
+  left: -70px;
+  bottom: -20px;
+}
+
+.right {
+  position: relative;
+  right: -680px;
+  bottom: -20px;
+}
+
+#pic2 {
+  margin-left: 145px;
+}
+
+#pic3 {
+  margin-left: 430px;
+  margin-top: -145px;
+}
+
+#pic4 {
+  margin-left: 99px;
+  margin-top: -325px;
+}
+
+#pic5 {
+  margin-left: 750px;
+  margin-top: -510px;
+}
+
+#pic6 {
+  margin-left: 430px;
+  margin-top: -350px;
+}
+  
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+.reviews-item {
+  border-bottom: 2px solid #081320;
+}
+
+.reviews-item-name {
+  background: #081320;
+  color: #fff;
+  width: 250px;
+  float: right;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.review {
+  font-size: 1.5rem;
+  /* font-weight: 700; */
+  color: #081320;
+  text-align: center;
+  width: 400px; 
+
+}
+
+.reviewer {
+  text-transform: uppercase;
+  background-color: #091F36;
+  color: #fff;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  width: 50%;
+}
+
+.story {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  background: #0F2862;
+  color: #FEDA6A;
+  width: 194px;
+  padding: 7px 10px;
+  line-height: 80%;
+  font-size: 24px;
+  position: relative;
+  top: -160px;
+  left: 25px;
+}
+
+.content {
+  background: #081320;
+  padding: 20px;
+}
+
+.text {
+  color: #fff;
+  margin-top: 25px;
+  text-align: center;
+}
+
+/*PAGE FOOTER STYLES*/
+footer {
+  background: #091F36;
+  padding: 40px 90px;
+
+  min-width: 100%;
+  max-width: 100%;
+  
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 90px;
+}
+
+footer input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #4F5F76;
+  background: #091F36;
+  color: #4F5F76;
+  width: 100%;
+}
+
+.btn {
+  border: none; 
+  border: 2px solid #4F5F76;
+  color: #4F5F76;
+  background: #091F36;
+  border-radius: 100px;
+  padding: 10px 50px;
+
+}
+
+footer p {
+  color: #fff;
+}
+.reach {
+  color: #FEDA6A;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 15px 1rem;
+  }
+  
+  .nav-link {
+    margin-left: 0;
+    font-size: 20px;
+  }
+  
+  .active {
+    color: #FEDA6A;
+  }
+  
+  .fa {
+    color: #4F5F76;
+    font-size: 40px;
+    margin-left: 0;
+  }
+  .jumbotron {
+    background-image: url("../images/bg-header-mobile.png");
+    height: 700px;
+    display: none;
+  }
+  .mobile {
+    display: block;
+}
+  .desktop {
+    display: none;
+  }
+  .display-4 {
+    font-size: 2rem;
+  }
+  .shots_desktop {
+    display: none;
+  }
+  .shots_mobile {
+    display: block;
+  }
+  .head {
+    border-top: 0;
+    width: 530px;
+    text-align: left;
+  }
+
+ 
+  #pic6 {
+    margin-left: 0px;
+    width: 300px;
+    margin-top: 0px;
+  }
+  .reviews {
+    text-align: center;
+    
+  }
+  .reviewer {
+    text-transform: uppercase;
+    background-color: #091F36;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .reviews .first {
+    margin-bottom: 2rem;
+  }
+  .content {
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    font-size: .9rem;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 1rem;
+  }
+  
+}
+
+
+@media (max-width: 400px) {
+  .feature-desktop, .review-desktop {
+      display: none;
+  }
+  .small-device {
+      display: block;
+  }
+}
