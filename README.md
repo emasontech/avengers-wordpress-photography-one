@@ -1,2 +1,2 @@
-# avengers-wordpress-photography-one
-Wordpress template for photography one 
+# team-avengers-photogrphy-template-one
+Photography template one for team avengers 
